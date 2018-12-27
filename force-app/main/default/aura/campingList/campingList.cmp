@@ -5,7 +5,7 @@
     
     <!--c:campingListForm /-->
     <lightning:card title="Camping Items">
-        <p class="slds-p-horizontal--small">
+        <p class="slds-p-horizontal_small">
             <aura:iteration items="{!v.items}" var="item">
                 <c:campingListItem item="{!item}"/>
             </aura:iteration>
