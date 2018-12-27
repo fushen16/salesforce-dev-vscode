@@ -1,0 +1,14 @@
+<apex:page sidebar="false" showHeader="true">
+    {! $User.firstName} {! $User.LastName}
+    <p>
+        Today's date is {! Today()}
+    </p>
+    <apex:pageBlock title="A Block Title">
+        <apex:pageBlockSection title="A Section Title">
+            I'am three components deep!
+        </apex:pageBlockSection>
+        <apex:pageBlockSection title="A New Section">
+            This is another section!
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+</apex:page>
