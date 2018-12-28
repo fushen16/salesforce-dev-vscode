@@ -1,0 +1,5 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global">
+    <c:campingHeader />
+    <!--c:campingListForm /-->
+    <c:campingList />
+</aura:component>
