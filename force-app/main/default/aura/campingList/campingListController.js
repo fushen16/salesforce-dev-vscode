@@ -18,7 +18,7 @@
     },
     
     handleAddItem: function(component, event, helper) {
-        console.log("handleAddItem function invoked!");
+        
         helper.handleAddItem(component, event);
     }
  })
